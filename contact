@@ -145,7 +145,7 @@ body {
 <body>
 <section class="get-in-touch">
    <h1 class="title">Get in touch</h1>
-   <form class="contact-form row">
+   <form class="contact-form row" action ="https://formsapi.jabwn.com/key/EPszHegThH4kZaflpOF7">
    <input type="hidden" name="_subject" value="New form submitted">
 	<input type="hidden" name="_replyto" value="%email">
 	<input type="hidden" name="_after" value="thank-you.html">
