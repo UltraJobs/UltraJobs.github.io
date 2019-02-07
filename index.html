@@ -533,34 +533,26 @@ Maharashtra 400098<br>
 									        <h4 class="modal-title" id="feedModalLabel">Send us your feedback</h4>
 									      </div>
 									      <div class="modal-body">
-											<form name="CForm" id="contactForm" action="https://formsapi.jabwn.com/key/EPszHegThH4kZaflpOF7" method="POST">
-												<input type="hidden" name="_subject" value="New form submitted">
-												<input type="hidden" name="_replyto" value="%email">
-												<input type="hidden" name="_after" value="thank-you.html">
-	
-												
-														   <label for="name">Name</label>
-														    <input id="name" name="name" type="text" class="form-control"  required="" placeholder="Name">
-													
-													    <label for="email">Email address</label>
-													    <input id="email" name="email" type="email" class="form-control" required="" placeholder="Email">
-													  
-												
-												
-													    <label for="phone">Phone</label>
-													    <input id="phone" name="phone" type="text" class="form-control" placeholder="Phone">
-													 
-													    <label for="subject">Subject</label>
-													    <input id="subject" name="subject" type="text" class="form-control" required="" placeholder="Subject">
-													
-
-												
-													<label for="message">Message</label>
-													<textarea id="message" name="message" class="form-control" rows="6" required="" placeholder="Message"></textarea>
-												
-
-												<input type="submit" value="Send Message" class="btn btn-primary">
-											</form>
+											<section class="get-in-touch">
+   <h1 class="title">Get in touch</h1>
+   <form class="contact-form row">
+      <div class="form-field col x-50">
+         <input id="name" class="input-text js-input" type="text" required>
+         <label class="label" for="name">Name</label>
+      </div>
+      <div class="form-field col x-50">
+         <input id="email" class="input-text js-input" type="email" required>
+         <label class="label" for="email">E-mail</label>
+      </div>
+      <div class="form-field col x-100">
+         <input id="message" class="input-text js-input" type="text" required>
+         <label class="label" for="message">Message</label>
+      </div>
+      <div class="form-field col x-100 align-center">
+         <input class="submit-btn" type="submit" value="Submit">
+      </div>
+   </form>
+</section>
 									      </div>
 									    </div>
 									  </div>
