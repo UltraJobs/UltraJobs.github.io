@@ -1,585 +1,527 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<head>
-	    <meta charset="utf-8">
-	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	    <meta name="viewport" content="width=device-width, initial-scale=1">
-	    <meta name="description" content="">
-	    <meta name="author" content="">
+        <link rel="icon" href="img/fav-icon.png" type="image/x-icon" />
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>ULTRAJOB</title>
 
-	    <title>UltraJob</title>
-	    <!-- Web Fonts -->
-		<link href='http://fonts.googleapis.com/css?family=Roboto:400,900,700,500,300' rel='stylesheet' type='text/css'>
-	    <!-- Flaticon CSS -->
-	    <link href="fonts/flaticon/flaticon.css" rel="stylesheet">
-	    <!-- font-awesome CSS -->
-	    <link href="css/font-awesome.min.css" rel="stylesheet">
-	    <!-- Offcanvas CSS -->
-	    <link href="css/hippo-off-canvas.css" rel="stylesheet">
-	    <!-- animate CSS -->
-	    <link href="css/animate.css" rel="stylesheet">
-	    <!-- owl.carousel CSS -->
-	    <link href="css/owl.theme.css" rel="stylesheet">
-	    <link href="css/owl.carousel.css" rel="stylesheet">
-	    <!-- Bootstrap Core CSS -->
-	    <link href="css/bootstrap.min.css" rel="stylesheet">
-	    <!-- Custom CSS -->
-	    <link href="css/style.css" rel="stylesheet">
-	    <!-- Responsive CSS -->
-	    <link href="css/responsive.css" rel="stylesheet">
+        <!-- Icon css link -->
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
 
-	    <script src="js/vendor/modernizr-2.8.1.min.js"></script>
-	    <!-- HTML5 Shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-	    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-	    <!--[if lt IE 9]>
-		    <script src="js/vendor/html5shim.js"></script>
-		    <script src="js/vendor/respond.min.js"></script>
-	    <![endif]-->
-	</head>
+        <!-- Rev slider css -->
+        <link href="vendors/revolution/css/settings.css" rel="stylesheet">
+        <link href="vendors/revolution/css/layers.css" rel="stylesheet">
+        <link href="vendors/revolution/css/navigation.css" rel="stylesheet">
 
+        <!-- Extra plugin css -->
+        <link href="vendors/owl-carousel/owl.carousel.min.css" rel="stylesheet">
 
-<body id="page-top" data-spy="scroll"  data-target=".navbar">
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/responsive.css" rel="stylesheet">
 
-  <div id="st-container" class="st-container">
-    <div class="st-pusher">
-        <div class="st-content">
-            <div class="st-content-inner">
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
 
-			  	<header class="header">
-					<nav class="navbar navbar-default" role="navigation">
-						<div class="container">
-							<div class="navbar-header">
-		                        <button type="button" class="navbar-toggle collapsed" >
-		                          <span class="sr-only">Toggle navigation</span>
-		                          <i class="fa fa-bars"></i>
-		                        </button>
-							    <!-- offcanvas-trigger-effects -->
-								<h1 class="logo"><a class="navbar-brand" href="index.html"><img src="img/logo.png" alt=""></a></h1>
-							</div>
+        <!--================Header Menu Area =================-->
+        <header class="main_menu_area">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">ULTRAJOB</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
 
-							<!-- Collect the nav links, forms, and other content for toggling -->
-							<div class="collapse navbar-collapse navbar-collapse">
-								<ul class="nav navbar-nav navbar-right">
-									<li><a class="page-scroll" href="#home">Home</a></li>
-									<li><a class="page-scroll" href="#services">Services</a></li>
-									<li><a class="page-scroll" href="#about">About</a></li>
-									
-									<li><a class="page-scroll" href="https://blog.ultrajob.in">Blog</a></li>
-									<li><a class="page-scroll" href="#contact">Contact</a></li>
-								</ul>
-							</div><!-- /.navbar-collapse -->
-						</div><!-- /.container -->
-					</nav>
-				</header>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about-us">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#service">Services</a></li>
 
 
-
-                <!-- slider content -->
-								<div id ="home">
-                <div id="x-corp-carousel" class="carousel slide hero-slide" data-ride="carousel">
-				    <!-- Indicators -->
-				    <ol class="carousel-indicators">
-				        <li data-target="#x-corp-carousel" data-slide-to="0" class="active"></li>
-				        <li data-target="#x-corp-carousel" data-slide-to="1"></li>
-								  <li data-target="#x-corp-carousel" data-slide-to="2"></li>
-									
-				    </ol>
-
-				    <!-- Wrapper for slides -->
-				    <div class="carousel-inner" role="listbox">
-				        <div class="item active">
-				            <img src="img/slider/slide-1.png" alt="Hero Slide">
-				            <!--Slide Image-->
-
-				            <div class="container">
-				                <div class="carousel-caption">
-				                    <h1 class="animated lightSpeedIn"></h1>
-
-				                    <p class="lead animated lightSpeedIn"></p>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!--================End Header Menu Area =================-->
 
 
-				                </div>
-				                <!--.carousel-caption-->
-				            </div>
-				            <!--.container-->
-				        </div>
-				        <!--.item-->
-
-				       
-								<div class="item">
-										<img animated lightSpeedIn src="img/slider/Slide-4.png" alt="Hero Slide">
-										<!--Slide Image-->
-
-										<div class="container">
-												<div class="carousel-caption">
-
-														<h1 class="animated bounceIn"></h1>
-
-														<p class="lead animated bounceIn"></p>
-
-												</div>
-												<!--.carousel-caption-->
-										</div>
-										<!--.container-->
-								</div>
-				        <!--.item-->
-								<div class="item ">
-										<img src="img/slider/Slide-2.png" alt="Hero Slide">
-										<!--Slide Image-->
-
-										<div class="container">
-												<div class="carousel-caption">
-														<h1 class="animated lightSpeedIn"></h1>
-
-														<p class="lead animated lightSpeedIn"></p>
-
-
-												</div>
-												<!--.carousel-caption-->
-										</div>
-										<!--.container-->
-								</div>
-				    </div>
-				    <!--.carousel-inner-->
-
-				    <!-- Controls -->
-				    <a class="left carousel-control" href="#x-corp-carousel" role="button" data-slide="prev">
-				        <i class="fa fa-angle-left" aria-hidden="true"></i>
-				        <span class="sr-only">Previous</span>
-				    </a>
-				    <a class="right carousel-control" href="#x-corp-carousel" role="button" data-slide="next">
-				        <i class="fa fa-angle-right" aria-hidden="true"></i>
-				        <span class="sr-only">Next</span>
-				    </a>
-				</div>
-                 <!-- /end slider section -->
-</div>
-		        <!-- services start -->
-				<section id="services" class="our-services section-padding">
-		            <div class="container">
-		              <div class="row text-center">
-		                <div class="col-xs-12">
-		                  <h2 class="section-title wow zoomIn">What We Do</h2>
-		                </div>
-		              </div> <!-- /.row -->
-
-		              <div class="row content-row">
-		                <div class="col-xs-12 col-sm-6 service-content">
-		                  <div class="media">
-
-		                    <a class="media-left" >
-		                      <i class="flaticon-bulb11"></i>
-		                    </a>
-
-		                    <div class="media-body">
-		                      <h3 class="media-heading">Office Recruitment </h3>
-		                      <p>ULTRAJOB provides professional recruitment services specialising in the recruitment
-of All permanent, contract and temporary positions on behalf of Different hotels , Restaurants &amp;
-hospitality companies .(we work for all job roles Like .chef , commi 1,2,3 , waiter, dishwasher etc) to
-know more about service charges contact us</p>
-
-		                      <a class="btn btn-primary" href="contact.html">Read More</a>
-		                    </div> <!-- /.media-body -->
-		                  </div> <!-- /.media -->
-		                </div> <!-- /.col-sm-6 -->
-
-
-		                <div class="col-xs-12 col-sm-6 service-content">
-		                  <div class="media">
-
-		                    <a class="media-left" >
-		                      <i class="flaticon-basket9"></i>
-		                    </a>
-
-		                    <div class="media-body">
-		                      <h3 class="media-heading">Domestic Helpers</h3>
-		                      <p>ULTRAJOB provides verified Domestic helpers (House Maid, Cooks, Care taker,
-Driver) on part time / full time basis .to know more about service charges contact us</p>
-
-		                      <a class="btn btn-primary" href="contact.html">Read More</a>
-		                    </div> <!-- /.media-body -->
-		                  </div> <!-- /.media -->
-		                </div> <!-- /.col-sm-6 -->
-                        </div>
-                          <div class="row content-row">
-
-
-
-
-		    <div class="col-xs-12 col-sm-6 service-content">
-		                  <div class="media">
-
-		                    <a class="media-left" >
-		                      <i class="flaticon-store2"></i>
-		                    </a>
-
-		                    <div class="media-body">
-		                      <h3 class="media-heading">Hotel Staff</h3>
-		                      <p>ULTRAJOB provides professional recruitment services specialising in the recruitment
-of All permanent, contract and temporary positions on behalf of Different hotels , Restaurants &amp;
-hospitality companies .(we work for all job roles Like .chef , commi 1,2,3 , waiter, dishwasher etc) to
-know more about service charges contact us</p>
-
-		                      <a class="btn btn-primary" href="contact.html">Read More</a>
-		                    </div> <!-- /.media-body -->
-		                  </div> <!-- /.media -->
-		                </div> <!-- /.col-sm-6 -->
-                                 <div class="col-xs-12 col-sm-6 service-content">
-		                  <div class="media">
-
-		                    <a class="media-right" >
-		                      <i class="flaticon-trumpet3"></i>
-		                    </a>
-
-		                    <div class="media-body">
-		                      <h3 class="media-heading">Party Help Services</h3>
-		                      <p>Organizing a party needs your full attention to details
-however you may find it hard to organize if you don’t have any help from your friends
-and facing the problem to serve the guests or clean the mess after all. Worry no more as
-ULTRAJOB Maids cleaning services can help you throw a party and clean the mess (we
-can also help you for Catering staff / Staffs for Event etc)</p>
-
-		                      <a class="btn btn-primary" href="contact.html">Read More</a>
-		                    </div> <!-- /.media-body -->
-		                  </div> <!-- /.media -->
-		                </div> <!-- /.col-sm-6 -->
+        <!--================Slider Area =================-->
+        <section class="main_slider_area">
+            <div id="main_slider" class="rev_slider" data-version="5.3.1.6">
+                <ul>
+                    <li data-index="rs-1587" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300" data-rotate="0"  data-saveperformance="off"  data-title="Creative" data-param1="01" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                        <!-- LAYER NR. 1 -->
+                        <div class="slider_text_box">
+                            <div class="tp-caption tp-resizeme first_text"
+                            data-x="['left','left','left','left','15','center']"
+                            data-hoffset="['0','80','80','0']"
+                            data-y="['top','top','top','top']"
+                            data-voffset="['400','400','400','250','180','180']"
+                            data-fontsize="['60','60','60','40','40','25']"
+                            data-lineheight="['82','82','82','62','62','42']"
+                            data-width="['none']"
+                            data-height="none"
+                            data-whitespace="nowrape"
+                            data-type="text"
+                            data-responsive_offset="on"
+                            data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:0px;s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]"
+                            data-textAlign="['left','left','left','left','left','center']">One Stop Solution For All Your <br>Blue-Collar Worker Requirements
                           </div>
-		            </div><!-- /.container -->
-		          </section>
-		        <!-- services end -->
 
- <section id="about" class="team-section section-padding">
-			        <div class="container">
-		              	<div class="row text-center">
-		                	<div class="col-xs-12">
-		                  		<h2 class="section-title wow zoomIn">About Us</h2>
-		                  		<div class="team-intro wow zoomIn">
-		                  			<p>ULTRAJOB is started with business interests in Recruitment Consultancy Services within
-Hospitality domain. We have strong focus on understanding client&#39;s business needs and on
-providing a value-added service through communication, engagement, strong working
-relationships and efficient project management
-From its inception in March 2017 till date, the firm has successfully recruited
-hundreds of job seeker, from various walks of life and professions, to several hotels, restaurants
-and cafes around the Mumbai &amp; Maharashtra state. Our client base ranges from hotels and
-resorts to restaurant chains and fast food joints and many more. . . .</p>
-		                  		</div>
-		                	</div>
-                                <div class="more-work-button text-center">
-				        	<button data-toggle="collapse" data-target="#demo" class="btn btn-primary btn-lg">Know More</button>
-				        </div>
-		              	</div> <!-- /.row -->
+                            <div class="tp-caption tp-resizeme secand_text"
+                                data-x="['left','left','left','left','15','center']"
+                                data-hoffset="['0','80','80','0']"
+                                data-y="['top','top','top','top']"
+                                data-voffset="['575','575','575','400','320','300']"
+                                data-fontsize="['20','20','20','15','12','12']"
+                                data-lineheight="['36','36','36','26','26','26']"
+                                data-width="['none','none','none','none','none']"
+                                data-height="none"
+                                data-whitespace="nowrape"
+                                data-type="text"
+                                data-responsive_offset="on"
+                                data-transform_idle="o:1;"
+                                data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:[100%];s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]"
+                                data-textAlign="['left','left','left','left','left','center']">Sales & Marketing Staff, Back office & Front Desk Staff,<br>Accountants & MIS Executive, Helper & Many More
+                            </div>
 
-<div id="demo" class="collapse">
-	<div class="row content-row">
- 	 <div class="col-xs-12 col-sm-6 service-content">
- 		 <div class="media">
+                            <div class="tp-caption tp-resizeme"
+                                data-x="['left','left','left','left','15','center']" data-hoffset="['0','80','80','0']"
+                                data-y="['top','top','top','top']"
+                                data-voffset="['670','670','670','480','370','350']"
+                                data-fontsize="['14','14','14','14']"
+                                data-lineheight="['46','46','46','46']"
+                                data-width="none"
+                                data-height="none"
+                                data-whitespace="nowrap"
+                                data-type="text"
+                                data-responsive_offset="on"
+                                data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:[100%];s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]">
+                                <a class="more_btn" href="#contact">Contact Now</a>
+                            </div>
+                            <div class="tp-caption tp-resizeme single_img"
+                            data-x="['right','right','right','right','right','right']"
+                            data-hoffset="['0','0','0','0']"
+                            data-y="['top','top','top','top']"
+                            data-voffset="['180','180','180','180','0']"
+                            data-fontsize="['65','65','60','40','25']"
+                            data-lineheight="['75','75','75','50','35']"
+                            data-width="['485','485','485','485','485']"
+                            data-height="none"
+                            data-whitespace="normal"
+                            data-type="text"
+                            data-responsive_offset="on"
+                            data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:0px;s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]"
+                            data-textAlign="['left','left','left','left','left','center']">
+                                <img src="img/home-slider/hr.png" alt="">
+                            </div>
+                        </div>
+                    </li>
+                    <li data-index="rs-1588" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300" data-rotate="0"  data-saveperformance="off"  data-title="Creative" data-param1="01" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                        <!-- LAYER NR. 1 -->
+                        <div class="slider_text_box">
+                            <div class="tp-caption tp-resizeme first_text"
+                            data-x="['left','left','left','left','15','center']"
+                            data-hoffset="['0','80','80','0']"
+                            data-y="['top','top','top','top']"
+                            data-voffset="['400','400','400','250','180','180']"
+                            data-fontsize="['60','60','60','40','40','25']"
+                            data-lineheight="['82','82','82','62','62','42']"
+                            data-width="['none']"
+                            data-height="none"
+                            data-whitespace="nowrape"
+                            data-type="text"
+                            data-responsive_offset="on"
+                            data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:0px;s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]"
+                            data-textAlign="['left','left','left','left','left','center']">We Are Best <br> In Hotel Recruitment
+                          </div>
 
+                            <div class="tp-caption tp-resizeme secand_text"
+                                data-x="['left','left','left','left','15','center']"
+                                data-hoffset="['0','80','80','0']"
+                                data-y="['top','top','top','top']"
+                                data-voffset="['575','575','575','400','320','300']"
+                                data-fontsize="['20','20','20','15','12','12']"
+                                data-lineheight="['36','36','36','26','26','26']"
+                                data-width="['none','none','none','none','none']"
+                                data-height="none"
+                                data-whitespace="nowrape"
+                                data-type="text"
+                                data-responsive_offset="on"
+                                data-transform_idle="o:1;"
+                                data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:[100%];s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]"
+                                data-textAlign="['left','left','left','left','left','center']">Chef, Waiter, Dish Washer, Server,<br> Cook, Commi & Many More
 
+                            </div>
 
- 			 <div class="media-body">
- 				 <h3 class="media-heading">Mission</h3>
- 				 <p>Our mission is to help our customer’s source and hire the most qualified professionals in
-selected and highly skilled occupations, and to help those professionals find the best job
-opportunities in their respective fields and further their careers.</p>
- 			 </div> <!-- /.media-body -->
- 		 </div> <!-- /.media -->
- 	 </div> <!-- /.col-sm-6 -->
+                            <div class="tp-caption tp-resizeme"
+                                data-x="['left','left','left','left','15','center']" data-hoffset="['0','80','80','0']"
+                                data-y="['top','top','top','top']"
+                                data-voffset="['670','670','670','480','370','350']"
+                                data-fontsize="['14','14','14','14']"
+                                data-lineheight="['46','46','46','46']"
+                                data-width="none"
+                                data-height="none"
+                                data-whitespace="nowrap"
+                                data-type="text"
+                                data-responsive_offset="on"
+                                data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:[100%];s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]">
+                                <a class="more_btn" href="#contact">Contact Now</a>
+                            </div>
+                            <div class="tp-caption tp-resizeme single_img"
+                            data-x="['right','right','right','right','right','right']"
+                            data-hoffset="['0','0','0','0']"
+                            data-y="['top','top','top','top']"
+                            data-voffset="['180','180','180','180','0']"
+                            data-fontsize="['65','65','60','40','25']"
+                            data-lineheight="['75','75','75','50','35']"
+                            data-width="['485','485','485','485','485']"
+                            data-height="none"
+                            data-whitespace="normal"
+                            data-type="text"
+                            data-responsive_offset="on"
+                            data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:0px;s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]"
+                            data-textAlign="['left','left','left','left','left','center']">
+                                <img src="img/home-slider/hotel.png" alt="">
+                            </div>
+                        </div>
+                    </li>
+                    <li data-index="rs-1589" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300" data-rotate="0"  data-saveperformance="off"  data-title="Creative" data-param1="01" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                        <!-- LAYER NR. 1 -->
+                        <div class="slider_text_box">
+                            <div class="tp-caption tp-resizeme first_text"
+                            data-x="['left','left','left','left','15','center']"
+                            data-hoffset="['0','80','80','0']"
+                            data-y="['top','top','top','top']"
+                            data-voffset="['400','400','400','250','180','180']"
+                            data-fontsize="['60','60','60','40','40','25']"
+                            data-lineheight="['82','82','82','62','62','42']"
+                            data-width="['none']"
+                            data-height="none"
+                            data-whitespace="nowrape"
+                            data-type="text"
+                            data-responsive_offset="on"
+                            data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:0px;s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]"
+                            data-textAlign="['left','left','left','left','left','center']">We provide Recruitment Services <br> for  Logistic & Warehouse Industry
+                          </div>
 
+                            <div class="tp-caption tp-resizeme secand_text"
+                                data-x="['left','left','left','left','15','center']"
+                                data-hoffset="['0','80','80','0']"
+                                data-y="['top','top','top','top']"
+                                data-voffset="['575','575','575','400','320','300']"
+                                data-fontsize="['20','20','20','15','12','12']"
+                                data-lineheight="['36','36','36','26','26','26']"
+                                data-width="['none','none','none','none','none']"
+                                data-height="none"
+                                data-whitespace="nowrape"
+                                data-type="text"
+                                data-responsive_offset="on"
+                                data-transform_idle="o:1;"
+                                data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:[100%];s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]"
+                                data-textAlign="['left','left','left','left','left','center']">Sales & Marketing Staff, Back office & Front Desk Staff,<br>Accountants & MIS Executive, Helper & Many More
+                            </div>
 
- 	 <div class="col-xs-12 col-sm-6 service-content">
- 		 <div class="media">
+                            <div class="tp-caption tp-resizeme"
+                                data-x="['left','left','left','left','15','center']" data-hoffset="['0','80','80','0']"
+                                data-y="['top','top','top','top']"
+                                data-voffset="['670','670','670','480','370','350']"
+                                data-fontsize="['14','14','14','14']"
+                                data-lineheight="['46','46','46','46']"
+                                data-width="none"
+                                data-height="none"
+                                data-whitespace="nowrap"
+                                data-type="text"
+                                data-responsive_offset="on"
+                                data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:[100%];s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]">
+                                <a class="more_btn" href="#contact">Contact Now</a>
+                            </div>
+                            <div class="tp-caption tp-resizeme single_img"
+                            data-x="['right','right','right','right','right','right']"
+                            data-hoffset="['0','0','0','0']"
+                            data-y="['top','top','top','top']"
+                            data-voffset="['180','180','180','180','0']"
+                            data-fontsize="['65','65','60','40','25']"
+                            data-lineheight="['75','75','75','50','35']"
+                            data-width="['485','485','485','485','485']"
+                            data-height="none"
+                            data-whitespace="normal"
+                            data-type="text"
+                            data-responsive_offset="on"
+                            data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:0px;s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]"
+                            data-textAlign="['left','left','left','left','left','center']">
+                                <img src="img/home-slider/picker.png" alt="">
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!--================End Slider Area =================-->
 
+        <!--================Feature Area =================-->
+        <section id="service"class="feature_area">
+            <div class="container">
+                <div class="c_title">
+                    <img src="img/icon/title-icon.png" alt="">
+                    <h6>Discover the features</h6>
+                    <h2>Services We Offer</h2>
+                </div>
+                <div class="row feature_inner">
+                    <div class="col-lg-6 col-sm-10">
+                        <div class="feature_item">
+                            <div class="f_icon">
+                                <img src="img/icon/f-icon-1.png" alt="">
+                            </div>
+                            <h4>Permanent Recruitment </h4>
+                            <p>
+                              We at ULTRAJOB believe that success of a company depends on the quality of its employees. Our Permanent Staffing Solutions helps you recruit best candidates .we uniquely positioned to help make sure that you get skilled & unskilled manpower on time , so you can focus on what matters most. With deep understanding of your industry, processes and business issues we provide workforce needs of your organization, while at the same time enabling individuals to achieve their individual goals. This is where profitability intersects with responsibility, and where our values are rooted.
+                            </p>
+                            <a class="more_btn" href="#">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-10">
+                        <div class="feature_item">
+                            <div class="f_icon">
+                                <img src="img/icon/f-icon-2.png" alt="">
+                            </div>
+                            <h4>Contract Staffing</h4>
+                            <p>  We at ULTRAJOB provide skilled / unskilled temporary workers to cover everything from short-term sickness to long-term project work.
+               Our highly trained recruitment specialists meet, reference and assess all our temporary workers to get you the right support when you need it. We build a temp workforce in each of our specialist sectors so whether you need any Blue-Collar Worker or any entry level staff you can trust us that we can fulfill your requirements within a week time .Temporary employees who will stay on our rolls ,Standard contractual procedures that we will handle ,Employee registration under ESIC & EPF schemes
+                            </p>
+                            <a class="more_btn" href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--================End Feature Area =================-->
 
-
- 			 <div class="media-body">
- 				 <h3 class="media-heading">Vision</h3>
- 				 <p>To craft a legacy built from our continuous growth and improvement of our clients and
-candidates.
-</br></br></br></p> </div> <!-- /.media-body -->
- 		 </div> <!-- /.media -->
- 	 </div> <!-- /.col-sm-6 -->
- 			 </div>
-</div>
-		        
-		        <!-- process end -->
-				<!-- Twitter start -->
-				<section id="twitter" class="twitter-feed-section section-padding">
-				    <div class="container">
-
-				      <div class="row">
-				        <div class="col-sm-8 col-sm-offset-2 text-center">
-				          <div class="twitter owl-carousel"></div>
-				        </div>
-				      </div><!-- .row -->
-
-				    </div><!-- .container -->
-				</section>
-				<!-- Twitter end -->
-
-				<!-- call-to-action start -->
-		        <!-- Twitter end<section class="call-to-action section-padding">
-			        <div class="container">
-				        <h2 class="wow zoomIn">Duis mollis est non commodo luctus nisi erat porttitor.</h2>
-				        <span class="sub-title wow zoomIn">You can decide which html tags you want</span>
-				        <a href="#" class="btn btn-primary btn-lg">Purchase</a>
-		            </div> <!-- /.container -->
-		        <!-- Twitter end</section>
-		        <!-- call-to-action end -->
-
-		        <!-- footer start -->
-				<footer id="contact" class="footer-widget-wrapper">
-					<div class="container">
-						<div class="row">
-							<div class="col-sm-3 col-md-3 col-md-offset-1">
-								<div class="footer-widget footer-logo">
-									<a href="#"><img src="img/logo.png" alt=""></a>
-								</div><!-- /.col-md-6 -->
-							</div><!-- /.col-md-6 -->
-							<div class="col-sm-3 col-md-2 col-lg-2">
-								<div class="footer-widget">
-									<h3>Useful Links</h3>
-									<ul>
-										<li><a data-toggle="modal" data-target="#cModal" href="">Career</a></li>
-										<li><a data-toggle="modal" data-target="#pModal" href="" >Partners</a></li>
-										<li><a data-toggle="modal" data-target="#csrModal" href="">CSR</a></li>
-										<li><a data-toggle="modal" data-target="#iModal" href="">Investor</a></li>
-									</ul>
-								</div><!-- /.footer-widget -->
-							</div><!-- /.col-md-2 -->
-							<div class="modal fade" id="pModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-								<div class="modal-dialog modal-lg">
-									<div class="modal-content">
-										<div class="modal-header">
-											<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-											<h4 class="modal-title" id="myModalLabel">Partners</h4>
-										</div>
-										<div class="modal-body">
-
-
-												<p> <font color="black">
-											Want to be our partner, share you’re proposal on Info.ultrajob@gmail.com</font>
+        <!--================The best slider Area =================-->
+        <section id="about-us" class="best_3d_area">
+            <div class="left_3d">
+              <img src="img/about_ultrajob.png">
+            </div>
+            <div class="right_text">
+                <div class="right_text_inner">
+                    <div class="text_3d">
+                        <div class="l_title">
+                            <img src="img/icon/title-icon.png" alt="">
+                            <h6></h6>
+                            <h2>About Us</h2>
+                        </div>
+                        <p>
+               ULTRAJOB is started with business interests in Recruitment Consultancy Services within  Blue-Collar Workers . We have strong focus on understanding client's business needs and on providing a value-added service through communication, engagement, strong working relationships and efficient project management From its inception in March 2016 till date, the firm has successfully recruited hundreds of job seeker, from various walks of life and professions, to several logistics , hotels, restaurants  and cafes around the Mumbai & Maharashtra state. Our client base ranges from Logistic , SMEs & Startups, hotels and resorts to restaurant chains and fast food joints and many more. . . .
 </p>
+                    </div>
 
-										</div>
-									</div><!-- /.modal-content -->
-								</div><!-- /.modal-dialog -->
-							</div><!-- End Modal -->
-							<div class="modal fade" id="cModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-								<div class="modal-dialog modal-lg">
-									<div class="modal-content">
-										<div class="modal-header">
-											<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-											<h4 class="modal-title" id="myModalLabel">Career</h4>
-										</div>
-										<div class="modal-body">
+                </div>
+            </div>
+        </section>
+        <!--================End The best slider Area =================-->
 
+        <!--================Team People Area =================-->
+        <section class="team_people_area">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="team_people_text">
+                            <div class="l_title">
+                                <img src="img/icon/title-icon.png" alt="">
 
-												<p> <font color="black">
-											It is often said, but at Ideal it is true – ‘Our greatest assets are our people’. If you’re
-	looking to join the Team at ULTRAJOB then just drop your Resume on:
-	Info.ultrajob@gmail.com
-	We will review your resume and contact you, if your qualifications meet the position criteria. We look
-	forward to hearing from you.</font>
-</p>
+                                <h2>Our Mission </h2>
+                            </div>
+                            <p>Our mission is to help our customer’s source and hire the most qualified Skilled & unskilled Blue-Collar Workers, and to help those professionals / workers to  find the best job opportunities in their respective fields and further their careers.
+                            </p>
 
-										</div>
-									</div><!-- /.modal-content -->
-								</div><!-- /.modal-dialog -->
-							</div><!-- End Modal -->
-							<div class="modal fade" id="csrModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-								<div class="modal-dialog modal-lg">
-									<div class="modal-content">
-										<div class="modal-header">
-											<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-											<h4 class="modal-title" id="myModalLabel">CSR</h4>
-										</div>
-										<div class="modal-body">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="team_people_text">
+                            <div class="l_title">
+                                <img src="img/icon/title-icon.png" alt="">
 
+                                <h2>Our Vission</h2>
+                            </div>
+                            <p>To craft a legacy built from our continuous growth and improvement of our clients and candidates.</p>
 
-												<p> <font color="black">
-													We do provide Training &amp; Placement to the under privilege peoples who are bagging for the
-		food &amp; help them to stand on their foots by providing them job.</font>
-</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--================End Team People Area =================-->
 
-										</div>
-									</div><!-- /.modal-content -->
-								</div><!-- /.modal-dialog -->
-							</div><!-- End Modal -->
-							<div class="modal fade" id="iModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-								<div class="modal-dialog modal-lg">
-									<div class="modal-content">
-										<div class="modal-header">
-											<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-											<h4 class="modal-title" id="myModalLabel">Investors</h4>
-										</div>
-										<div class="modal-body">
+        <!--================Get in Touch Area =================-->
+        <section id="contact" class="get_in_touch_area">
+            <div class="container">
+                <div class="row get_touch_inner">
+                    <div class="col-lg-6">
 
+                        <form class="contact_us_form row" action="https://formsapi.jabwn.com/key/EPszHegThH4kZaflpOF7" method="post" id="contactForm" novalidate="novalidate">
+                            <div class="form-group col-lg-6">
+                              <input type="hidden" name="_subject" value="New form submitted on Website">
+                              <input type="hidden" name="_replyto" value="%email">
+                              <input type="hidden" name="_after" value="http://ultrajob.in/thank-you.html">
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+                            </div>
+                            <div class="form-group col-lg-6">
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+                            </div>
+                            <div class="form-group col-lg-12">
+                                <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject*">
+                            </div>
+                            <div class="form-group col-lg-12">
+                                <textarea class="form-control" name="message" id="message" rows="1" placeholder="Message"></textarea>
+                            </div>
+                            <div class="form-group col-lg-12">
+                                <button type="submit" value="submit" class="btn submit_btn form-control">Send</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="touch_details">
+                            <div class="l_title">
+                                <img src="img/icon/title-icon.png" alt="">
+                                <h6>Say hello</h6>
+                                <h2>Get in touch, send us an e-mail or call us</h2>
+                            </div>
+                            <h4>info@cybereak.com</h4>
+                            <a href="+918983834716"><h5>Call us now</h5>
+                        <h4>+918983834716</h4></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--================End Get in Touch Area =================-->
 
-												<p> <font color="black">
-													As we are start up firm required good amount of investment to scale up our business to know our
-milestones &amp; future plans feel free to contact us</font>
-</p>
+        <!--================Map Area =================-->
+        <section class="world_map_area p_100">
+            <div class="container">
+                <div class="world_map_inner">
+                    <img class="img-fluid" src="img/world-map.png" alt="">
+                  <div class="row" >
 
-										</div>
-									</div><!-- /.modal-content -->
-								</div><!-- /.modal-dialog -->
-							</div><!-- End Modal -->
-							<div class="col-sm-3 col-md-3">
-								<div class="footer-widget">
-									<h3>Location</h3>
-									<address>
-									  508, 5th floor, Fortune Square, Building No. 11, Near US Embassy
-TradeCentre,400051, Bandra Kurla Complex Road, MMRDA Area, KaMumbai,
-Maharashtra 400098<br>
-									  <!-- Google Map Modal Trigger -->
-									  <a data-toggle="modal" data-target="#cssMapModal" >View on Google Maps</a>
-									</address>
+                       <div class="bd-callout"><a href="https://goo.gl/maps/3G9tG2Qo7q82">
+                        <h3>Mumbai Branch</h3>
+                        <p>508, 5th floor, Fortune Square, Building No. 11, Near US Embassy TradeCentre,400051, Bandra Kurla Complex Road, MMRDA Area, Mumbai, Maharashtra 400098</p>
+                  </a></div>
 
+                        <div class="bd-callout1"><a href="https://goo.gl/maps/pVJxgNy9DjS2">
+                          <h3>Thane Branch</h3>
+                          <p>Office No: 06 Taqwa Manzil, Opp: Masjid–e-Taqwa , at Borivali, Post : Padgha Tal: Bhiwnadi, Dist:Thane, Padgha, Maharashtra 421101</p>
 
-									<!-- Modal -->
-									<div class="modal fade" id="cssMapModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-									  <div class="modal-dialog modal-lg">
-									    <div class="modal-content">
-									      <div class="modal-header">
-									        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-									        <h4 class="modal-title" id="myModalLabel">Our Location</h4>
-									      </div>
-									      <div class="modal-body">
+                      </a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--================End Map Area =================-->
 
-										    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15083.591339738337!2d72.867174!3d19.068229!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x95aa29a94dd024aa!2sULTRAJOB!5e0!3m2!1sen!2sin!4v1550772057116" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <!--================Footer Area =================-->
+        <footer class="footr_area">
+            <div class="footer_widget_area">
+                <div class="container">
+                    <div class="row footer_widget_inner">
+                        <div class="col-lg-4 col-sm-6">
+                            <aside class="f_widget f_about_widget">
+                                <img src="img/footer-logo.png" alt="">
+                                <p> ULTRAJOB is started with business interests in Recruitment Consultancy Services within  Blue-Collar Workers . </p>
+                            </aside>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                            <aside class="f_widget f_insta_widget">
+                                <div class="f_title">
+                                <ul>  <h2> Social Link</h2>
+                                    <li><h3>Instagram</h3></li><br>
 
-									      </div>
-									    </div><!-- /.modal-content -->
-									  </div><!-- /.modal-dialog -->
-									</div><!-- End Modal -->
+                                    <li><h3>Facebook</h3></li><br>
+                                    <li><h3>Linked In</h3></li><br>
+                                    <li><h3>Twitter</h3></li></ul><br>
 
-								</div><!-- /.footer-widget -->
-							</div><!-- /.col-md-2 -->
-							<div class="col-sm-3 col-md-3">
-								<div class="footer-widget">
-									<h3>Get in Touch</h3>
-									<a href="+919665454712">+918983834716</a>
-									<a href="mailto:#">info.ultrajob@gmail.com</a>
-									<a class="feedback-modal"  href="contact.html">Send us your feedback</a>
+                                </div>
 
-									<!-- Modal -->
-									<div class="modal fade" id="feedModal" tabindex="-1" role="dialog" aria-labelledby="feedModalLabel" aria-hidden="true">
-									  <div class="modal-dialog modal-lg">
-									    <div class="modal-content">
-									      <div class="modal-header">
-									        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-									        <h4 class="modal-title" id="feedModalLabel">Send us your feedback</h4>
-									      </div>
-									      <div class="modal-body">
-											<section class="get-in-touch">
-   <h1 class="title">Get in touch</h1>
-   <form class="contact-form row">
-      <div class="form-field col x-50">
-         <input id="name" class="input-text js-input" type="text" required>
-         <label class="label" for="name">Name</label>
-      </div>
-      <div class="form-field col x-50">
-         <input id="email" class="input-text js-input" type="email" required>
-         <label class="label" for="email">E-mail</label>
-      </div>
-      <div class="form-field col x-100">
-         <input id="message" class="input-text js-input" type="text" required>
-         <label class="label" for="message">Message</label>
-      </div>
-      <div class="form-field col x-100 align-center">
-         <input class="submit-btn" type="submit" value="Submit">
-      </div>
-   </form>
-</section>
-									      </div>
-									    </div>
-									  </div>
-									</div>
-								</div><!-- /.footer-widget -->
-							</div><!-- /.col-md-2 -->
-						</div><!-- /.row -->	<div class="row">
-							<div class="col-xs-12 text-center">
-								<div class="copyright">
-
-									<a  class="btn btn-primary" target="_blank" href="https://www.facebook.com/theultrajob">Facebook</a>
-									<a class="btn btn-primary" target="_blank" href="https://www.youtube.com/channel/UCoci74pMK8iMQAferYkmPeQ">Youtube</a>
-									<a class="btn btn-primary" target="_blank" href="https://twitter.com/ULTRAJOBSmumbai">Twitter</a>
-									<a class="btn btn-primary" target="_blank" href="https://www.linkedin.com/company/13439160/">Linkedin</a>
-								</div>
-							</div>
-						</div>
-
-
-						<div class="row">
-							<div class="col-xs-12 text-center">
-								<div class="copyright">
-									<p>&copy; 2017 UltraJob.  Design by : <a href="https://cybereak.com" title="">Cybereak</a></p>
-								</div>
-							</div>
-						</div>
-
-					</div><!-- /.container -->
-				</footer>
-				<!-- footer end -->
-        </div> <!-- .st-content-inner -->
-    </div> <!-- .st-content -->
-    </div> <!-- .st-pusher -->
-
-
-    	<!-- OFFCANVAS MENU -->
-    	<div class="offcanvas-menu offcanvas-effect visible-xs">
-	        <button type="button" class="close" aria-hidden="true" data-toggle="offcanvas" id="off-canvas-close-btn">&times;</button>
-	        <h3>Sidebar Menu</h3>
-	        <ul class="list-unstyled">
-	            <li class="active"><a class="offcanvas-link" href="#page-top">Home<span class="sr-only">(current)</span></a></li>
-	            <li><a class="offcanvas-link" href="#services">Services</a></li>
-	            
-	            <li><a class="offcanvas-link" href="#about">About</a></li>
-	            <li><a class="offcanvas-link" href="#blog">Blog</a></li>
-	            <li><a class="offcanvas-link" href="#contact">Contact</a></li>
-	        </ul>
-      	</div><!-- .offcanvas-menu -->
-	</div><!-- /st-container -->
+                            </aside>
+                        </div>
+                        <!--<div class="col-lg-4 col-sm-6">
+                            <aside class="f_widget f_subs_widget">
+                                <div class="f_title">
+                                    <h3>Subscribe to newsletter</h3>
+                                </div>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Your e-mail address here" aria-label="Your e-mail address here">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-secondary submit_btn" type="button">Subscribe</button>
+                                    </span>
+                                </div>
+                            </aside>
+                        </div>-->
+                    </div>
+                </div>
+            </div>
+            <div class="footer_copyright">
+                <div class="container">
+                    <div class="float-sm-left">
+                        <h5><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved |  made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://cybereak.com" target="_blank">Cybereak</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></h5>
+                    </div>
+                    <div class="float-sm-right">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                            <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--================End Footer Area =================-->
 
 
-		<!-- Preloader -->
-		<div id="preloader">
-			<div id="status">
-				<div class="status-mes"></div>
-			</div>
-		</div>
 
 
-	    <!-- jQuery -->
-	    <script src="js/jquery.js"></script>
-	    <!-- Bootstrap Core JavaScript -->
-	    <script src="js/bootstrap.min.js"></script>
-	    <!-- wow.min.js -->
-	    <script src="js/wow.min.js"></script>
-	    <!-- smoothscroll -->
-	    <script src="js/smoothscroll.js"></script>
-	    <!-- twitterFetcher_min -->
-	    <script src="js/twitterFetcher_min.js"></script>
-	    <!-- owl.carousel -->
-	    <script src="js/owl.carousel.min.js"></script>
-		<!-- Offcanvas Menu -->
-		<script src="js/hippo-offcanvas.js"></script>
-		<!-- inview -->
-		<script src="js/jquery.inview.min.js"></script>
-		<!-- stellar -->
-		<script src="js/jquery.stellar.js"></script>
-		<!-- countTo -->
-		<script src="js/jquery.countTo.js"></script>
-	    <!-- Scrolling Nav JavaScript -->
-	    <script src="js/jquery.easing.min.js"></script>
-		<!-- flickerPhoto -->
-		<script src="js/flickerPhoto.min.js"></script>
-		<!-- Shuffle.min js -->
-		<script src="js/jquery.shuffle.min.js"></script>
-	    <!-- GOGLE MAP -->
-	    <script src="https://maps.googleapis.com/maps/api/js"></script>
-	    <!-- Custom Script -->
-	    <script src="js/scripts.js"></script>
-	</body>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <!-- Rev slider js -->
+        <script src="vendors/revolution/js/jquery.themepunch.tools.min.js"></script>
+        <script src="vendors/revolution/js/jquery.themepunch.revolution.min.js"></script>
+        <script src="vendors/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+        <script src="vendors/revolution/js/extensions/revolution.extension.video.min.js"></script>
+        <script src="vendors/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+        <script src="vendors/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+        <script src="vendors/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+        <script src="vendors/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+        <!-- Extra plugin css -->
+        <script src="vendors/counterup/jquery.waypoints.min.js"></script>
+        <script src="vendors/counterup/jquery.counterup.min.js"></script>
+        <script src="vendors/counterup/apear.js"></script>
+        <script src="vendors/counterup/countto.js"></script>
+        <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+        <script src="vendors/magnify-popup/jquery.magnific-popup.min.js"></script>
+        <script src="js/smoothscroll.js"></script>
+
+        <script src="js/theme.js"></script>
+    </body>
 </html>
